@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63D1B3F91638BB6600D392B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D1B3F81638BB6600D392B1 /* UIKit.framework */; };
+		63D1B3FB1638BB6600D392B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D1B3FA1638BB6600D392B1 /* Foundation.framework */; };
+		63D1B3FD1638BB6600D392B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D1B3FC1638BB6600D392B1 /* CoreGraphics.framework */; };
+		63D1B4031638BB6600D392B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63D1B4011638BB6600D392B1 /* InfoPlist.strings */; };
+		63D1B4051638BB6600D392B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D1B4041638BB6600D392B1 /* main.m */; };
+		63D1B4091638BB6600D392B1 /* BBMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D1B4081638BB6600D392B1 /* BBMAppDelegate.m */; };
+		63D1B40B1638BB6600D392B1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D1B40A1638BB6600D392B1 /* Default.png */; };
+		63D1B40D1638BB6600D392B1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D1B40C1638BB6600D392B1 /* Default@2x.png */; };
+		63D1B40F1638BB6600D392B1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D1B40E1638BB6600D392B1 /* Default-568h@2x.png */; };
+		63D1B4251638BC8300D392B1 /* BBMRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D1B4241638BC8300D392B1 /* BBMRootViewController.m */; };
+		63D1B4371638BE4C00D392B1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D1B4361638BE4C00D392B1 /* CoreLocation.framework */; };
+		63D1B4391638BE5400D392B1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D1B4381638BE5300D392B1 /* QuartzCore.framework */; };
+		63D1B43A1638BE5A00D392B1 /* libMapView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D1B4321638BD0C00D392B1 /* libMapView.a */; };
+		63D1B43C1638BE6700D392B1 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D1B43B1638BE6700D392B1 /* libsqlite3.dylib */; };
+		63D1B43E1638BE7300D392B1 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D1B43D1638BE7300D392B1 /* libz.dylib */; };
+		63D1B4401638C1BB00D392B1 /* berkeley.mbtiles in Resources */ = {isa = PBXBuildFile; fileRef = 63D1B43F1638C1BB00D392B1 /* berkeley.mbtiles */; };
+		63D1B4571638C6D000D392B1 /* HeadingAngleSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D1B44A1638C6D000D392B1 /* HeadingAngleSmall.png */; };
+		63D1B4581638C6D000D392B1 /* HeadingAngleSmall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D1B44B1638C6D000D392B1 /* HeadingAngleSmall@2x.png */; };
+		63D1B4591638C6D000D392B1 /* LoadingTile.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D1B44C1638C6D000D392B1 /* LoadingTile.png */; };
+		63D1B45A1638C6D000D392B1 /* LoadingTileZoom.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D1B44D1638C6D000D392B1 /* LoadingTileZoom.png */; };
+		63D1B45B1638C6D000D392B1 /* TrackingDot.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D1B44E1638C6D000D392B1 /* TrackingDot.png */; };
+		63D1B45C1638C6D000D392B1 /* TrackingDot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D1B44F1638C6D000D392B1 /* TrackingDot@2x.png */; };
+		63D1B45D1638C6D000D392B1 /* TrackingDotHalo.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D1B4501638C6D000D392B1 /* TrackingDotHalo.png */; };
+		63D1B45E1638C6D000D392B1 /* TrackingDotHalo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D1B4511638C6D000D392B1 /* TrackingDotHalo@2x.png */; };
+		63D1B45F1638C6D000D392B1 /* TrackingHeading.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D1B4521638C6D000D392B1 /* TrackingHeading.png */; };
+		63D1B4601638C6D000D392B1 /* TrackingHeading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D1B4531638C6D000D392B1 /* TrackingHeading@2x.png */; };
+		63D1B4611638C6D000D392B1 /* TrackingLocation.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D1B4541638C6D000D392B1 /* TrackingLocation.png */; };
+		63D1B4621638C6D000D392B1 /* TrackingLocation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D1B4551638C6D000D392B1 /* TrackingLocation@2x.png */; };
+		63D1B4791639F60700D392B1 /* greyButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D1B4751639F60700D392B1 /* greyButton.png */; };
+		63D1B47A1639F60700D392B1 /* greyButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D1B4761639F60700D392B1 /* greyButton@2x.png */; };
+		63D1B47B1639F60700D392B1 /* greyButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D1B4771639F60700D392B1 /* greyButtonHighlight.png */; };
+		63D1B47C1639F60700D392B1 /* greyButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D1B4781639F60700D392B1 /* greyButtonHighlight@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63D1B4311638BD0C00D392B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63D1B4261638BD0B00D392B1 /* MapView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 17F31EFA1331050A00122B16;
+			remoteInfo = MapView;
+		};
+		63D1B4341638BD3200D392B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63D1B4261638BD0B00D392B1 /* MapView.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B8C974130E8A19B2007D16AD;
+			remoteInfo = MapView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63D1B3F41638BB6600D392B1 /* berkeleyBikeMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = berkeleyBikeMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D1B3F81638BB6600D392B1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		63D1B3FA1638BB6600D392B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		63D1B3FC1638BB6600D392B1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		63D1B4001638BB6600D392B1 /* berkeleyBikeMap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "berkeleyBikeMap-Info.plist"; sourceTree = "<group>"; };
+		63D1B4021638BB6600D392B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		63D1B4041638BB6600D392B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63D1B4061638BB6600D392B1 /* berkeleyBikeMap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "berkeleyBikeMap-Prefix.pch"; sourceTree = "<group>"; };
+		63D1B4071638BB6600D392B1 /* BBMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBMAppDelegate.h; sourceTree = "<group>"; };
+		63D1B4081638BB6600D392B1 /* BBMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBMAppDelegate.m; sourceTree = "<group>"; };
+		63D1B40A1638BB6600D392B1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		63D1B40C1638BB6600D392B1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		63D1B40E1638BB6600D392B1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		63D1B4231638BC8300D392B1 /* BBMRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBMRootViewController.h; sourceTree = "<group>"; };
+		63D1B4241638BC8300D392B1 /* BBMRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBMRootViewController.m; sourceTree = "<group>"; };
+		63D1B4261638BD0B00D392B1 /* MapView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MapView.xcodeproj; path = lib/mapbox/MapView/MapView.xcodeproj; sourceTree = "<group>"; };
+		63D1B4361638BE4C00D392B1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		63D1B4381638BE5300D392B1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		63D1B43B1638BE6700D392B1 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		63D1B43D1638BE7300D392B1 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		63D1B43F1638C1BB00D392B1 /* berkeley.mbtiles */ = {isa = PBXFileReference; lastKnownFileType = file; path = berkeley.mbtiles; sourceTree = "<group>"; };
+		63D1B44A1638C6D000D392B1 /* HeadingAngleSmall.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = HeadingAngleSmall.png; path = Resources/HeadingAngleSmall.png; sourceTree = "<group>"; };
+		63D1B44B1638C6D000D392B1 /* HeadingAngleSmall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "HeadingAngleSmall@2x.png"; path = "Resources/HeadingAngleSmall@2x.png"; sourceTree = "<group>"; };
+		63D1B44C1638C6D000D392B1 /* LoadingTile.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = LoadingTile.png; path = Resources/LoadingTile.png; sourceTree = "<group>"; };
+		63D1B44D1638C6D000D392B1 /* LoadingTileZoom.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = LoadingTileZoom.png; path = Resources/LoadingTileZoom.png; sourceTree = "<group>"; };
+		63D1B44E1638C6D000D392B1 /* TrackingDot.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = TrackingDot.png; path = Resources/TrackingDot.png; sourceTree = "<group>"; };
+		63D1B44F1638C6D000D392B1 /* TrackingDot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "TrackingDot@2x.png"; path = "Resources/TrackingDot@2x.png"; sourceTree = "<group>"; };
+		63D1B4501638C6D000D392B1 /* TrackingDotHalo.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = TrackingDotHalo.png; path = Resources/TrackingDotHalo.png; sourceTree = "<group>"; };
+		63D1B4511638C6D000D392B1 /* TrackingDotHalo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "TrackingDotHalo@2x.png"; path = "Resources/TrackingDotHalo@2x.png"; sourceTree = "<group>"; };
+		63D1B4521638C6D000D392B1 /* TrackingHeading.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = TrackingHeading.png; path = Resources/TrackingHeading.png; sourceTree = "<group>"; };
+		63D1B4531638C6D000D392B1 /* TrackingHeading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "TrackingHeading@2x.png"; path = "Resources/TrackingHeading@2x.png"; sourceTree = "<group>"; };
+		63D1B4541638C6D000D392B1 /* TrackingLocation.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = TrackingLocation.png; path = Resources/TrackingLocation.png; sourceTree = "<group>"; };
+		63D1B4551638C6D000D392B1 /* TrackingLocation@2x.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "TrackingLocation@2x.png"; path = "Resources/TrackingLocation@2x.png"; sourceTree = "<group>"; };
+		63D1B4751639F60700D392B1 /* greyButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greyButton.png; sourceTree = "<group>"; };
+		63D1B4761639F60700D392B1 /* greyButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "greyButton@2x.png"; sourceTree = "<group>"; };
+		63D1B4771639F60700D392B1 /* greyButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greyButtonHighlight.png; sourceTree = "<group>"; };
+		63D1B4781639F60700D392B1 /* greyButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "greyButtonHighlight@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63D1B3F11638BB6600D392B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D1B43E1638BE7300D392B1 /* libz.dylib in Frameworks */,
+				63D1B43C1638BE6700D392B1 /* libsqlite3.dylib in Frameworks */,
+				63D1B43A1638BE5A00D392B1 /* libMapView.a in Frameworks */,
+				63D1B4391638BE5400D392B1 /* QuartzCore.framework in Frameworks */,
+				63D1B4371638BE4C00D392B1 /* CoreLocation.framework in Frameworks */,
+				63D1B3F91638BB6600D392B1 /* UIKit.framework in Frameworks */,
+				63D1B3FB1638BB6600D392B1 /* Foundation.framework in Frameworks */,
+				63D1B3FD1638BB6600D392B1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63D1B3E91638BB6600D392B1 = {
+			isa = PBXGroup;
+			children = (
+				63D1B4261638BD0B00D392B1 /* MapView.xcodeproj */,
+				63D1B3FE1638BB6600D392B1 /* berkeleyBikeMap */,
+				63D1B3F71638BB6600D392B1 /* Frameworks */,
+				63D1B3F51638BB6600D392B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63D1B3F51638BB6600D392B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63D1B3F41638BB6600D392B1 /* berkeleyBikeMap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63D1B3F71638BB6600D392B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63D1B43D1638BE7300D392B1 /* libz.dylib */,
+				63D1B43B1638BE6700D392B1 /* libsqlite3.dylib */,
+				63D1B4381638BE5300D392B1 /* QuartzCore.framework */,
+				63D1B4361638BE4C00D392B1 /* CoreLocation.framework */,
+				63D1B3F81638BB6600D392B1 /* UIKit.framework */,
+				63D1B3FA1638BB6600D392B1 /* Foundation.framework */,
+				63D1B3FC1638BB6600D392B1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63D1B3FE1638BB6600D392B1 /* berkeleyBikeMap */ = {
+			isa = PBXGroup;
+			children = (
+				63D1B4071638BB6600D392B1 /* BBMAppDelegate.h */,
+				63D1B4081638BB6600D392B1 /* BBMAppDelegate.m */,
+				63D1B4231638BC8300D392B1 /* BBMRootViewController.h */,
+				63D1B4241638BC8300D392B1 /* BBMRootViewController.m */,
+				63D1B4561638C6D000D392B1 /* Resources */,
+				63D1B3FF1638BB6600D392B1 /* Supporting Files */,
+			);
+			path = berkeleyBikeMap;
+			sourceTree = "<group>";
+		};
+		63D1B3FF1638BB6600D392B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63D1B43F1638C1BB00D392B1 /* berkeley.mbtiles */,
+				63D1B4001638BB6600D392B1 /* berkeleyBikeMap-Info.plist */,
+				63D1B4011638BB6600D392B1 /* InfoPlist.strings */,
+				63D1B4041638BB6600D392B1 /* main.m */,
+				63D1B4061638BB6600D392B1 /* berkeleyBikeMap-Prefix.pch */,
+				63D1B40A1638BB6600D392B1 /* Default.png */,
+				63D1B40C1638BB6600D392B1 /* Default@2x.png */,
+				63D1B40E1638BB6600D392B1 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63D1B4271638BD0B00D392B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63D1B4321638BD0C00D392B1 /* libMapView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63D1B4561638C6D000D392B1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				63D1B4751639F60700D392B1 /* greyButton.png */,
+				63D1B4761639F60700D392B1 /* greyButton@2x.png */,
+				63D1B4771639F60700D392B1 /* greyButtonHighlight.png */,
+				63D1B4781639F60700D392B1 /* greyButtonHighlight@2x.png */,
+				63D1B44A1638C6D000D392B1 /* HeadingAngleSmall.png */,
+				63D1B44B1638C6D000D392B1 /* HeadingAngleSmall@2x.png */,
+				63D1B44C1638C6D000D392B1 /* LoadingTile.png */,
+				63D1B44D1638C6D000D392B1 /* LoadingTileZoom.png */,
+				63D1B44E1638C6D000D392B1 /* TrackingDot.png */,
+				63D1B44F1638C6D000D392B1 /* TrackingDot@2x.png */,
+				63D1B4501638C6D000D392B1 /* TrackingDotHalo.png */,
+				63D1B4511638C6D000D392B1 /* TrackingDotHalo@2x.png */,
+				63D1B4521638C6D000D392B1 /* TrackingHeading.png */,
+				63D1B4531638C6D000D392B1 /* TrackingHeading@2x.png */,
+				63D1B4541638C6D000D392B1 /* TrackingLocation.png */,
+				63D1B4551638C6D000D392B1 /* TrackingLocation@2x.png */,
+			);
+			name = Resources;
+			path = ../lib/mapbox/MapView/Map;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63D1B3F31638BB6600D392B1 /* berkeleyBikeMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63D1B4121638BB6600D392B1 /* Build configuration list for PBXNativeTarget "berkeleyBikeMap" */;
+			buildPhases = (
+				63D1B3F01638BB6600D392B1 /* Sources */,
+				63D1B3F11638BB6600D392B1 /* Frameworks */,
+				63D1B3F21638BB6600D392B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63D1B4351638BD3200D392B1 /* PBXTargetDependency */,
+			);
+			name = berkeleyBikeMap;
+			productName = berkeleyBikeMap;
+			productReference = 63D1B3F41638BB6600D392B1 /* berkeleyBikeMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63D1B3EB1638BB6600D392B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BBM;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = David;
+			};
+			buildConfigurationList = 63D1B3EE1638BB6600D392B1 /* Build configuration list for PBXProject "berkeleyBikeMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 63D1B3E91638BB6600D392B1;
+			productRefGroup = 63D1B3F51638BB6600D392B1 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 63D1B4271638BD0B00D392B1 /* Products */;
+					ProjectRef = 63D1B4261638BD0B00D392B1 /* MapView.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				63D1B3F31638BB6600D392B1 /* berkeleyBikeMap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		63D1B4321638BD0C00D392B1 /* libMapView.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMapView.a;
+			remoteRef = 63D1B4311638BD0C00D392B1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63D1B3F21638BB6600D392B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D1B4031638BB6600D392B1 /* InfoPlist.strings in Resources */,
+				63D1B40B1638BB6600D392B1 /* Default.png in Resources */,
+				63D1B40D1638BB6600D392B1 /* Default@2x.png in Resources */,
+				63D1B40F1638BB6600D392B1 /* Default-568h@2x.png in Resources */,
+				63D1B4401638C1BB00D392B1 /* berkeley.mbtiles in Resources */,
+				63D1B4571638C6D000D392B1 /* HeadingAngleSmall.png in Resources */,
+				63D1B4581638C6D000D392B1 /* HeadingAngleSmall@2x.png in Resources */,
+				63D1B4591638C6D000D392B1 /* LoadingTile.png in Resources */,
+				63D1B45A1638C6D000D392B1 /* LoadingTileZoom.png in Resources */,
+				63D1B45B1638C6D000D392B1 /* TrackingDot.png in Resources */,
+				63D1B45C1638C6D000D392B1 /* TrackingDot@2x.png in Resources */,
+				63D1B45D1638C6D000D392B1 /* TrackingDotHalo.png in Resources */,
+				63D1B45E1638C6D000D392B1 /* TrackingDotHalo@2x.png in Resources */,
+				63D1B45F1638C6D000D392B1 /* TrackingHeading.png in Resources */,
+				63D1B4601638C6D000D392B1 /* TrackingHeading@2x.png in Resources */,
+				63D1B4611638C6D000D392B1 /* TrackingLocation.png in Resources */,
+				63D1B4621638C6D000D392B1 /* TrackingLocation@2x.png in Resources */,
+				63D1B4791639F60700D392B1 /* greyButton.png in Resources */,
+				63D1B47A1639F60700D392B1 /* greyButton@2x.png in Resources */,
+				63D1B47B1639F60700D392B1 /* greyButtonHighlight.png in Resources */,
+				63D1B47C1639F60700D392B1 /* greyButtonHighlight@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63D1B3F01638BB6600D392B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D1B4051638BB6600D392B1 /* main.m in Sources */,
+				63D1B4091638BB6600D392B1 /* BBMAppDelegate.m in Sources */,
+				63D1B4251638BC8300D392B1 /* BBMRootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63D1B4351638BD3200D392B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MapView;
+			targetProxy = 63D1B4341638BD3200D392B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63D1B4011638BB6600D392B1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63D1B4021638BB6600D392B1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63D1B4101638BB6600D392B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63D1B4111638BB6600D392B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63D1B4131638BB6600D392B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "berkeleyBikeMap/berkeleyBikeMap-Prefix.pch";
+				HEADER_SEARCH_PATHS = "lib/**";
+				INFOPLIST_FILE = "berkeleyBikeMap/berkeleyBikeMap-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		63D1B4141638BB6600D392B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "berkeleyBikeMap/berkeleyBikeMap-Prefix.pch";
+				HEADER_SEARCH_PATHS = "lib/**";
+				INFOPLIST_FILE = "berkeleyBikeMap/berkeleyBikeMap-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63D1B3EE1638BB6600D392B1 /* Build configuration list for PBXProject "berkeleyBikeMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63D1B4101638BB6600D392B1 /* Debug */,
+				63D1B4111638BB6600D392B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63D1B4121638BB6600D392B1 /* Build configuration list for PBXNativeTarget "berkeleyBikeMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63D1B4131638BB6600D392B1 /* Debug */,
+				63D1B4141638BB6600D392B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63D1B3EB1638BB6600D392B1 /* Project object */;
+}

@@ -1,0 +1,3 @@
+[submodule "lib/mapbox"]
+	path = lib/mapbox
+	url = https://github.com/mapbox/mapbox-ios-sdk.git
